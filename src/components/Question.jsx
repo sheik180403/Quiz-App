@@ -3,7 +3,7 @@ import QUESTION from "../QUESTION";
 import Prograss from "./Prograss";
 import Complete from "./Complete";
 
-const MAX = 10000;
+const MAX = 15000;
 
 function Question() {
   const [ans, setAns] = useState([]);
