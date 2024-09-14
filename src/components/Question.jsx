@@ -14,7 +14,7 @@ function Question() {
   const arr = useRef();
   const [temp, setTemp] = useState("");
   const ansStyle =
-    "bg-[#6cb7f5] h-[50px] mb-4 w-[80%] rounded-[30px] text-stone-950 text-[15px] hover:bg-[#9d5af5] hover:text-white font-bold font-sans";
+    "bg-[#6cb7f5] h-[50px] mb-4 w-[80%] rounded-[30px] text-stone-950 text-[15px] lg:hover:bg-[#9d5af5] lg:hover:text-white font-bold font-sans";
 
   const activeIndex = ans.length;
 
