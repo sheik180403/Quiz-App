@@ -6,7 +6,7 @@ function Header() {
       <header className="flex flex-col mt-5 justify-center items-center">
         <img src={logo} className="h-14 w-14" />
         <h1 className="mt-2 tracking-[8px] font-moni text-[30px] font-bold bg-myColor bg-clip-text text-transparent">
-          REACT QUIZ
+          REACT QUIZ APP
         </h1>
       </header>
     </>
