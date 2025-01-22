@@ -14,7 +14,7 @@ export default function Answers() {
           <div className="px-5 mt-2 ">
             <p className="text-green-400 font-semibold">
               <span className="text-black">ans:</span> {item.answer[0]}
-            </p>
+            </p> 
             <p className="text-white font-semibold mt-1">
               <span className="text-black">explanation: </span>
               {item.explanation}
