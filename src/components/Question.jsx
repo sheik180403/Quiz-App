@@ -22,10 +22,10 @@ function Question() {
     function addAns(answer, index) {
       if (QUESTION[activeIndex].answer[0] == answer) {
         setAnsStatus((prev) => ({ ...prev, ans: "correct", index }));
-        setTemp(ansStyle + " bg-green-600 hover:bg-green-600");
+        setTemp(ansStyle + " bg-green-600 lg:hover:bg-green-600");
       } else {
         setAnsStatus((prev) => ({ ...prev, ans: "wrong", index }));
-        setTemp(ansStyle + " bg-red-600 hover:bg-red-600");
+        setTemp(ansStyle + " bg-red-600 lg:hover:bg-red-600");
       }
 
       setTimeout(() => {
